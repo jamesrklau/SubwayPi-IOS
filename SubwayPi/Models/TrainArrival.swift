@@ -5,6 +5,7 @@
 //  Created by Jaime Klau on 11/12/26.
 //
 
+
 import Foundation
 
 struct TrainArrival: Codable, Identifiable {
@@ -19,4 +20,10 @@ struct TrainArrival: Codable, Identifiable {
     var id: String {
         trip_id
     }
+
+    // Convert the backend's Unix timestamp into a Swift Date.
+    var arrivalDate: Date {
+        Date(timeIntervalSince1970: TimeInterval(arrival_time))
+    }
 }
+
