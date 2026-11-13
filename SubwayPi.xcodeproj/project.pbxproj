@@ -29,9 +29,22 @@
 		AD05273430A6857700F94B60 /* SubwayPiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubwayPiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AD05275530A6876200F94B60 /* Exceptions for "SubwayPi" folder in "SubwayPi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AD05271C30A6857400F94B60 /* SubwayPi */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AD05271F30A6857400F94B60 /* SubwayPi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AD05275530A6876200F94B60 /* Exceptions for "SubwayPi" folder in "SubwayPi" target */,
+			);
 			path = SubwayPi;
 			sourceTree = "<group>";
 		};
@@ -397,6 +410,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SubwayPi/Info.plist;
+				INFOPLIST_KEY_NSIdentityUsageDescription = "SubwayPi connects to your home Raspberry Pi to retrieve real-time train arrivals.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +443,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SubwayPi/Info.plist;
+				INFOPLIST_KEY_NSIdentityUsageDescription = "SubwayPi connects to your home Raspberry Pi to retrieve real-time train arrivals.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
